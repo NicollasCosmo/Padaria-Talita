@@ -1,2 +1,5 @@
-# Padaria-Talita
- Repositório de uma home page da Padaria Talita
+
+
+Home Page da Padaria Talita
+
+ Repositório criado com a home page da Padaria Talita 
