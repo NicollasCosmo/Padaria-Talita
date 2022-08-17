@@ -1,0 +1,29 @@
+header {
+
+
+    background: red;
+}
+
+
+
+.caixa {
+
+   width: 940px;
+   position: relative;
+   margin: 0 auto;
+}
+
+
+
+.titulo-principal {
+
+text-align: center;
+font-size: 35px;
+color: yellow;
+vertical-align:center;
+padding: 40px;
+text-transform: uppercase;
+
+ 
+   
+}

@@ -1,0 +1,156 @@
+
+header {
+
+	padding: 20px 0;
+	background: red;
+	
+}
+
+
+
+.titulo-principal {
+
+text-align: center;
+font-size: 90px;
+color: yellow;
+margin: 8%;
+vertical-align:center;
+
+}
+
+
+
+
+.caixa {
+
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+	
+
+}
+
+nav {
+
+	position: absolute;
+	top: 150px;
+	left: 10%;
+	
+}
+
+
+nav li {
+
+	display: inline;
+
+}
+
+nav a {
+
+	text-transform: uppercase;
+	color: yellow;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	margin: 0 0 0 70px;
+
+}
+
+
+nav a:hover {
+
+	color: darkgoldenrod;
+	text-decoration: underline;
+}
+
+
+nav a:active {
+
+	color:sienna
+}
+
+
+.imagembanner {
+
+	width: 100%;
+}
+
+.historia {
+
+	padding: 20px 0;
+}
+
+
+h2 {
+
+	text-align: center;
+	font-style: italic; 
+	font-size: 25px;
+	font-weight: bold;
+}
+
+
+.paragrafo1 {
+
+	text-align: center;
+	font-size: 18px;
+	font-style: italic;
+	padding: 20px;
+
+
+}
+
+.produtos {
+
+	padding: 2%
+}
+
+ul {
+
+	font-style: italic;
+	font-size: 20px;
+
+}
+
+.listas {
+
+display: inline-block;
+vertical-align: top;
+margin-right: 8%;
+width: 15%;
+font-size: 19px;
+
+
+
+}
+
+.imagens {
+
+	width: 50%
+}
+
+footer {
+
+	text-align: center;
+	background: url(bg.jpg);
+	color: yellow;
+	padding: 40px 0;
+
+}
+
+.horario {
+
+	padding: 20px 0 0;
+	font-size: 20px;
+}
+
+.copyright {
+
+	padding: 20px 0 0;
+	font-size: 13px;
+}
+
+
+
+
