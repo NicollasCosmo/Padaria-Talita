@@ -70,6 +70,12 @@ nav a:active {
 	color:sienna
 }
 
+main {
+
+	width: 940px;
+	margin: 0 auto;
+}
+
 
 .imagembanner {
 
@@ -149,6 +155,33 @@ footer {
 
 	padding: 20px 0 0;
 	font-size: 13px;
+}
+
+form {
+
+	margin: 40px 0;
+}
+
+form label {
+
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao {
+
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.enviar {
+
+	width: 40%;
+	padding: 15px 0;
+	display: block;
 }
 
 
