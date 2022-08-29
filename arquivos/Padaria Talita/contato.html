@@ -37,29 +37,29 @@
 
                         <form>
                             <label for="Nome">Nome e Sobrenome</label>
-                            <input type="text" id="Nomesobrenome" class="input-padrao">
+                            <input type="text" id="Nomesobrenome" class="input-padrao" required>
 
                             <label for="Email">Email</label>
-                            <Input type="text" id="Email" class="input-padrao">
+                            <Input type="text" id="Email" class="input-padrao" required placeholder="seuemail@dominio.com.br">
 
                             <label for="Telefone">Telefone</label>
-                            <Input type="tel" id="Telefone" class="input-padrao">
+                            <Input type="tel" id="Telefone" class="input-padrao" required placeholder="(XX)-XXXXXXXXX">
                             
                             <label for="mensagem">Mensagem</label>
-                            <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
+                            <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
 
                             <fieldset>
 
                                 <legend>Como você prefere nosso contato?</legend>
 
-                                <label for="radio-email">Email</label>
-                                <input type="radio" name="contato" value="email" id="radio-email">
+                                <label for="radio-email"> <input type="radio" name="contato" value="email" id="radio-email">Email</label>
+                               
 
-                                <label for="radio-telefone">Telefene</label>
-                                <input type="radio" name="contato" value="telefone" id="radio-telefone">
+                                <label for="radio-telefone"> <input type="radio" name="contato" value="telefone" id="radio-telefone">Telefene</label>
+                               
 
-                                <label for="radio-watsapp">Watsapp</label>
-                                <input type="radio" name="contato" value="watsapp" id="radio-watsapp" checked>
+                                <label for="radio-watsapp"> <input type="radio" name="contato" value="watsapp" id="radio-watsapp" checked>Watsapp</label>
+                               
 
                             </fieldset>
                             <fieldset>
@@ -71,6 +71,8 @@
                                     <option>Tarde</option>
                                     <option>Noite</option>
                                 </select>
+
+                                <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas promoções por email?</label>
 
 
                             </fieldset>

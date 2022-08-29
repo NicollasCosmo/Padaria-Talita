@@ -42,6 +42,7 @@ nav {
 nav li {
 
 	display: inline;
+	
 
 }
 
@@ -62,12 +63,15 @@ nav a:hover {
 
 	color: darkgoldenrod;
 	text-decoration: underline;
+
+	
 }
 
 
 nav a:active {
 
 	color:sienna
+	
 }
 
 main {
@@ -162,12 +166,14 @@ form {
 	margin: 40px 0;
 }
 
-form label {
+form label, form p {
 
 	display: block;
 	font-size: 20px;
 	margin: 0 0 10px;
 }
+
+
 
 .input-padrao {
 
@@ -182,6 +188,29 @@ form label {
 	width: 40%;
 	padding: 15px 0;
 	display: block;
+	background: red;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s background;
+	transition: 1s transform;
+	cursor: pointer;
+
+}
+
+.enviar:hover {
+
+	background: darkred;
+	transform: scale(1.2);
+
+}
+
+
+.checkbox {
+
+	margin: 20px 0;
 }
 
 
