@@ -98,3 +98,66 @@ nav a:hover {
     font-size: 30px;
     font-weight: bold;
 }
+
+footer {
+
+	text-align: center;
+	background: url(bg.jpg);
+	color: yellow;
+	padding: 40px 0;
+
+}
+
+.horario {
+
+	padding: 20px 0 0;
+	font-size: 20px;
+}
+
+.copyright {
+
+	padding: 20px 0 0;
+	font-size: 13px;
+}
+
+
+
+/*css responsivo - Produtos*/
+
+@media screen and (max-width:480px) {
+
+.caixa, .produtos{
+
+    width: auto;
+}
+
+nav {
+
+    position: static;
+}
+
+nav li {
+
+    display: inline;
+    margin: 15px 0 15px 25px;
+    
+}
+
+.produtos {
+
+    text-align: center;
+}
+
+.produtos li {
+
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    
+}
+
+
+
+}
+
+
