@@ -8,7 +8,6 @@
 			<title>Contato - Padaria Talita</title>
 			<link rel="stylesheet" type="text/css" href="reset.css">
 			<link rel="stylesheet" type="text/css" href="talita-home.css">
-            <script src="main.js"></script>
 		</head>
 
         <body>
@@ -37,18 +36,18 @@
 					</header>
                     <main>
 
-                        <form>
+                        <form action="" method="post" onsubmit="return validarTudo()">
                             <label for="Nome">Nome e Sobrenome</label>
-                            <input type="text" id="Nomesobrenome" class="input-padrao" required>
+                            <input type="text" id="nomeSobrenome" class="input-padrao">
 
                             <label for="Email">Email</label>
-                            <Input type="text" id="Email" class="input-padrao" required placeholder="seuemail@dominio.com.br">
+                            <Input type="text" id="email" class="input-padrao" placeholder="seuemail@dominio.com.br">
 
                             <label for="Telefone">Telefone</label>
-                            <Input type="tel" id="Telefone" class="input-padrao" required placeholder="(XX)-XXXXXXXXX">
+                            <Input type="tel" id="telefone" class="input-padrao" placeholder="(XX)-XXXXXXXXX">
                             
                             <label for="mensagem">Mensagem</label>
-                            <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+                            <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
 
                             <fieldset>
 
@@ -81,7 +80,7 @@
 
                             
                             
-                            <input onclick="enviarFormulario()" type="submit" value="Enviar Formulário" class="enviar">
+                            <input type="submit" value="Enviar Formulário" class="enviar">
 
                         </form>
 
@@ -104,6 +103,6 @@
     
                     </footer>
                     
-                
+                    <script src="main.js"></script>
         </body>
 </html>
